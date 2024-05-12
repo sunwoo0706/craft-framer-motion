@@ -17,12 +17,10 @@
   height: 96px;
   width: 96px;
   background: #fad658;
-  border-radius: 12px;
 }
 
 .button {
   background: white;
   padding: 8px 16px;
-  border-radius: 8px;
   font-size: 14px;
 }

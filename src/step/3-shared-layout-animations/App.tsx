@@ -15,9 +15,17 @@ export default function App() {
         Animate
       </motion.button>
       {showSecond ? (
-        <motion.div layoutId="hey" className="second-element" />
+        <motion.div
+          layoutId="hey"
+          className="second-element"
+          style={{ borderRadius: 8 }}
+        />
       ) : (
-        <motion.div layoutId="hey" className="element" />
+        <motion.div
+          layoutId="hey"
+          className="element"
+          style={{ borderRadius: 12 }}
+        />
       )}
     </div>
   );
