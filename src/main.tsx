@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./step/2-layout/App.tsx";
+import App from "./step/3-shared-layout-animations/App.tsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
